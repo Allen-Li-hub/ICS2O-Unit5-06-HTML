@@ -10,23 +10,24 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit5-01-HTML/sw.js", {
-    scope: "/ICS2O-Unit5-01-HTML/",
+  navigator.serviceWorker.register("/ICS2O-Unit5-06-HTML/sw.js", {
+    scope: "/ICS2O-Unit5-06-HTML/",
   })
 }
 
-const randomNumber = Math.floor(Math.random() * 6) + 1
+function myButtonClicked() {
+  var numA = parseFloat(document.getElementById("firstInputedNumber").value)
+  var numB = parseFloat(document.getElementById("secondInputedNumber").value)
+  var product = 0
+  var counter = 0
 
-function updateSliderValue(valueFromSlider) {
-  document.getElementById("slider-value").innerHTML = valueFromSlider
-
-  if (valueFromSlider == randomNumber) {
-    document.getElementById("answer").innerHTML =
-      "the answer was, " + randomNumber + "!" + " You got it! Excellent."
+  while (counter < Math.abs(numB)) {
+    counter++
+    product = product + Math.abs(numA)
   }
 
-  if (valueFromSlider != randomNumber) {
-    document.getElementById("answer").innerHTML =
-      "Sorry the answer was, " + randomNumber + "!" + " please try again."
-  }
+  if ((numA < 0 && numB > 0) || (numB < 0 && numA > 0))
+    document.getElementById("product").innerHTML = "The product is: " + product
+  else
+    document.getElementById("product").innerHTML = "The product is: " + product
 }
