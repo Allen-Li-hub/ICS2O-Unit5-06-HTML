@@ -16,8 +16,8 @@ if (navigator.serviceWorker) {
 }
 
 function myButtonClicked() {
-  var numA = parseFloat(document.getElementById("firstInputedNumber").value)
-  var numB = parseFloat(document.getElementById("secondInputedNumber").value)
+  var numA = parseFloat(document.getElementById("firstNumber").value)
+  var numB = parseFloat(document.getElementById("secondNumber").value)
   var product = 0
   var counter = 0
 
