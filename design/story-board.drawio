@@ -22,10 +22,13 @@
                 <mxCell id="12" value="text" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007FFF;" parent="1" vertex="1">
                     <mxGeometry x="100" y="170" width="150" height="10" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="input first number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                <mxCell id="13" value="input first number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
                     <mxGeometry x="100" y="260" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="result" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                <mxCell id="14" value="result" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="350" width="110" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Calculate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
                     <mxGeometry x="100" y="320" width="120" height="20" as="geometry"/>
                 </mxCell>
             </root>
